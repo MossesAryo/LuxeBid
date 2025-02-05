@@ -15,7 +15,7 @@ LuxeBid adalah sebuah situs web Lelang yang dirancang untuk melelang produk deng
 - **Framework**: Laravel
 - **Frontend**: Blade dengan Vite
 - **Database**: MySQL
-- **Styling**: Tailwind CSS
+- **Styling**: Bootstrap 5.3
 - **Middleware**: Laravel Middleware untuk otentikasi dan otorisasi
 - **ORM**: Eloquent ORM untuk interaksi database
 - **Storage**: Laravel Storage Facades untuk manajemen file
