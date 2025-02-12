@@ -1,69 +1,6 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LuxeBid - Platform Lelang Premium</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
-    <style>
-        .hero-section {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                        url('/api/placeholder/1920/600');
-            background-size: cover;
-            background-position: center;
-            color: white;
-            padding: 100px 0;
-        }
-        .category-card {
-            transition: transform 0.3s;
-            cursor: pointer;
-        }
-        .category-card:hover {
-            transform: translateY(-5px);
-        }
-        .navbar-brand {
-            font-weight: bold;
-            font-size: 1.5rem;
-        }
-        .live-badge {
-            background-color: #dc3545;
-            color: white;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.8rem;
-        }
-    </style>
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-        <div class="container">
-            <a class="navbar-brand text-primary" href="#">
-                <i class="fas fa-gavel me-2"></i>LuxeBid
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cabang Kantor</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">UMKM</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pusat Bantuan</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+@extends('Front.Layout.template')
 
+@section('main')
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="container">
@@ -71,7 +8,7 @@
                 <div class="col-md-8 text-center">
                     <h1 class="display-4 mb-4">Temukan Properti Impian Anda</h1>
                     <p class="lead mb-4">Platform lelang premium untuk properti dan aset berkualitas</p>
-                    
+
                     <!-- Search Bar -->
                     <div class="bg-white p-4 rounded shadow">
                         <form class="row g-3">
@@ -232,36 +169,4 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-light py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>LuxeBid</h5>
-                    <p>Platform lelang premium untuk properti dan aset berkualitas di Indonesia.</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Link Cepat</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="text-light">Tentang Kami</a></li>
-                        <li><a href="#" class="text-light">Cara Lelang</a></li>
-                        <li><a href="#" class="text-light">Syarat & Ketentuan</a></li>
-                        <li><a href="#" class="text-light">Kontak</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Hubungi Kami</h5>
-                    <p>
-                        <i class="fas fa-envelope me-2"></i>info@luxebid.id<br>
-                        <i class="fas fa-phone me-2"></i>021-1234567<br>
-                        <i class="fas fa-map-marker-alt me-2"></i>Jakarta, Indonesia
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+@endsection

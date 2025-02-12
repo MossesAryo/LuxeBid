@@ -1,0 +1,152 @@
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('/api/placeholder/1920/400');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.office-card {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.office-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.region-title {
+    border-left: 4px solid #0d6efd;
+    padding-left: 15px;
+}
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('/api/placeholder/1920/600');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+.category-card {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.category-card:hover {
+    transform: translateY(-5px);
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.live-badge {
+    background-color: #dc3545;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+.auth-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('/api/placeholder/1920/1080');
+    background-size: cover;
+    background-position: center;
+}
+.auth-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 15px;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.auth-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6c757d;
+    margin: 1rem 0;
+}
+.auth-divider::before,
+.auth-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #dee2e6;
+}
+.auth-divider span {
+    padding: 0 1rem;
+}
+.social-login-btn {
+    border: 1px solid #dee2e6;
+    background: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s;
+}
+.social-login-btn:hover {
+    background: #f8f9fa;
+    transform: translateY(-2px);
+}
+.form-floating > label {
+    padding-left: 1rem;
+}
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('/api/placeholder/1920/400');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.faq-card {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.faq-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.contact-info-card {
+    border-left: 4px solid #0d6efd;
+}
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('/api/placeholder/1920/400');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.product-card {
+    transition: transform 0.3s;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.badge-verified {
+    background-color: #198754;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+.timer {
+    color: #dc3545;
+    font-weight: bold;
+}
